@@ -1,0 +1,42 @@
+.title {
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 21px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin: 0.5rem 0;
+  }
+  
+  input {
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  ::placeholder {
+    color: #b9babd;
+  }
+
+  .success,  .error {
+    margin: 10px 0;
+    padding: 10px;
+    color: #ffff;
+    border-radius: 8px;
+  }
+  .success{
+    background: #769160;
+  }
+  .error {
+    background: #b94a34;
+  }
+  
+  @media (max-width: 767px) {
+  .title {
+    text-align: center;
+  }
+}
+
